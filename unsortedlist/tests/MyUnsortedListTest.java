@@ -889,8 +889,3 @@ public class MyUnsortedListTest
         assertEquals(13, list.pop());
     }
 }
-
-// Coverage avec VSCode :
-// > Bash
-// > mvn jacoco:prepare-agent test install jacoco:report
-// > Cliquez sur Watch
